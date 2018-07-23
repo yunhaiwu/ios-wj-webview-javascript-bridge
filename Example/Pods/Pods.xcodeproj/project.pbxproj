@@ -1,0 +1,1060 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0097C361F954ED7B5067F212826C11AE /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 1BFEBBC51E337FE81190FE3C577DB2DB /* DDASLLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		04069F09064B19F673A40301D8CFDC6D /* DDLog.h in Headers */ = {isa = PBXBuildFile; fileRef = 0132F247A6E5D4682F8CA75B5942FB60 /* DDLog.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		04F99D0B139BA1D419F8C8B64671562C /* DDContextFilterLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BB50EAC4E31427DEC5E205437A03BCD /* DDContextFilterLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		0926D9DC8AEE2660500349753C3FE12C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		0FB2208D30EBC989193163845794EEF5 /* DDASLLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = BA31D30C8A283999A4C89C5430B429F1 /* DDASLLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1DEBF937A21F8EB27AE0FD6DC6EB5C48 /* DDTTYLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 5259C9CB29B1380F3F2B7A3C1C958A91 /* DDTTYLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		23647965254B3E07E2FDDD729E0AD436 /* CocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E630AA0C2C36FB863ABF943CC4709600 /* CocoaLumberjack-dummy.m */; };
+		2D6C744C43A74774BCEBD84AFA347D6A /* WJLoggingMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = A6E66A55BCDAE2B493A22AC50883EB3F /* WJLoggingMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2EC9C0EE30671A1BF4FF997F0FBDBBC7 /* IWJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 76B4298578DC17DF26C37CC1C33D5843 /* IWJLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		310CAABC91B051420B3C09D31467140C /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		327F521BDF6825B7E8310A8364F4B329 /* DDASLLogCapture.h in Headers */ = {isa = PBXBuildFile; fileRef = F579181F3E373D2636296345B848F32D /* DDASLLogCapture.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		355FC76BC5023A12C8BFC3E0CDAEC2D4 /* WJConfig.h in Headers */ = {isa = PBXBuildFile; fileRef = 37FFD1103A4E406F331C3FBAE7AADF3C /* WJConfig.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F71DE69C5BF6D5337028836782578DD /* DDDispatchQueueLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 077E54F2697B923801B24481E9ED7499 /* DDDispatchQueueLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		42F3665EAD592433B14AF7A788E71962 /* DDAbstractDatabaseLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = C3AE55138D8751B35992F317B6678AAE /* DDAbstractDatabaseLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		44E52A6929838107BA0CFBF689E3EBF3 /* DDAbstractDatabaseLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 44B34C5986FE976C612DFD17517B6F0A /* DDAbstractDatabaseLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C2964071939BB92D7967F4917079BF1 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F904EAEE198579FE895B8EBF2107EE9 /* DDFileLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		56AA0DC203410D4E2685E02678A67014 /* WJLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 96BA3E34EF8DF70173FC2CED85957CEB /* WJLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5DE494A9F445722554AD42C0119E22D4 /* DDLegacyMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 87622D8C3A1DAF111D802CD931F53807 /* DDLegacyMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		62369FFEA88375B2EABAD14439D29EBF /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = B50843014B5DEA900DE6FA4C10907604 /* DDTTYLogger.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		631CA7DF8B6F249F17C97CD1EE357F94 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		699AD3B24E77ED2FD26DA362BB356E20 /* DDLogMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 597F0F66B34E1C814D46B8D7B8EB762D /* DDLogMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		827800D496A1CAC0323A82008470FCDB /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D2AB02A825555DA53734D0670CD3AA5 /* DDLog.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		888C1B4C31EA4942E50F5E3C93D953FD /* WJLoggingCocoaLumberjack-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D1DF4F1DC43D3871026BB993D4BBC7C8 /* WJLoggingCocoaLumberjack-dummy.m */; };
+		8C9CD434CA4F79A53AAA9A978FF5E415 /* WJLoggerFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 66C7A8E981495A4D51FAEA742C124F66 /* WJLoggerFactory.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		9E3623D4A5376B17C60E3A3DA39FC4F0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		A5E49897A952DCD366B72928F99C3A25 /* DDASLLogCapture.m in Sources */ = {isa = PBXBuildFile; fileRef = 703B50C67BB6FBC4227FE4E9A8FC9782 /* DDASLLogCapture.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		AC6B0EC4FF2850AF0A4DE4BE7E89F124 /* DDContextFilterLogFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 15051C10B7F7CCF890F07CE5138ACE3D /* DDContextFilterLogFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AC6CA9FF162601A4B6F1B221F788F26F /* CocoaLumberjack.h in Headers */ = {isa = PBXBuildFile; fileRef = 36485E9DE7418CAB903531A634E3D98D /* CocoaLumberjack.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B166B388142FB19706B8681667647161 /* WJLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C09BDF75152247F5AEFA247EFF7479B /* WJLogger.m */; };
+		B179A1ACF8D1446D6D8E5C141CD195D0 /* Pods-WJWebViewJavascriptBridge-example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 89461AAFCD74EB742C7EAED52DA6D27E /* Pods-WJWebViewJavascriptBridge-example-dummy.m */; };
+		B36933332D10D9D0EAE0C1DDF0FA0FA1 /* WJLoggerFactory.h in Headers */ = {isa = PBXBuildFile; fileRef = 4561D3C734ADF7269E9F025E0C264946 /* WJLoggerFactory.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B7C875FA64EAD89280B21EDE8682F1E5 /* DDDispatchQueueLogFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = 99FBC22F68C2CC65CE83CE9C62FA04B0 /* DDDispatchQueueLogFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		C45CDC625B3E4BE9F6845C75913170DE /* WJLoggingAPI-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 942237DC427E3BB862CD62DFB83C80AC /* WJLoggingAPI-dummy.m */; };
+		C87CADD5D196D40CC5FC85D294706DD7 /* WJConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 56AB7CED171AA07AD65F7FC52C97DA70 /* WJConfig.m */; };
+		CB11742A0438BA72A15DEEFD3AE4CCCD /* DDAssertMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = D972A2BE8E01C370332237D355E29362 /* DDAssertMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF9D68926E762521DC73A6AED2CBAFA1 /* WJConfig-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7132EAA702E3B94F679400BA5DBB8B6B /* WJConfig-dummy.m */; };
+		D4581B4ACFF6ADF049B2F1C758573673 /* DDMultiFormatter.h in Headers */ = {isa = PBXBuildFile; fileRef = 7146FC51FE0E67D612F96B177BB019C1 /* DDMultiFormatter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D66A971DBC6F9E493190F261B97637C0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E35FEF6ED17D3E48EE4ACCFBE58A26B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */; };
+		E5DA9194C6FCB2A81692F141AB381AED /* DDLog+LOGV.h in Headers */ = {isa = PBXBuildFile; fileRef = A4659FE24CB1A6DB86A6A4CC83179A48 /* DDLog+LOGV.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E8DA52FD4C5F8B853D665AA2A68B8625 /* DDMultiFormatter.m in Sources */ = {isa = PBXBuildFile; fileRef = C9D27F2D27029E2A059FD682A5F46352 /* DDMultiFormatter.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EDD5C8C37CF25D8EEC9961334E440C5C /* DDFileLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 7DBBC93F5C5FB3CDE572A81E5652383E /* DDFileLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FC89D41AED72B7241FF8560C1A76B57B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+		FF84684E6E36286A53BF05FAA32971E5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2B27D255AA8531DECAE54B4EE085A49B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F22769C3BA8D7C1B03B27A9F1E9DCF0;
+			remoteInfo = WJLoggingAPI;
+		};
+		3B27EA2666EA1ED473BE76EFF094B75A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2671AB3799B97E67B71EDF321C9EEF21;
+			remoteInfo = WJLoggingCocoaLumberjack;
+		};
+		4DAA7EA41214BE831D644CD9A8F8BC83 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438122A7CC2173B37934D289B0938D2F;
+			remoteInfo = WJConfig;
+		};
+		A12FB5D491B0EFC4E9CA1BB4BE4D2421 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A9298B32F31A61F3742650B19EE27BD;
+			remoteInfo = CocoaLumberjack;
+		};
+		A27D6AB13B9BE9DC9B193D00881DDC68 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1A9298B32F31A61F3742650B19EE27BD;
+			remoteInfo = CocoaLumberjack;
+		};
+		B00DE2DF9B959CA438E44F1CEE2F5CBA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0F22769C3BA8D7C1B03B27A9F1E9DCF0;
+			remoteInfo = WJLoggingAPI;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0132F247A6E5D4682F8CA75B5942FB60 /* DDLog.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLog.h; path = Classes/DDLog.h; sourceTree = "<group>"; };
+		077E54F2697B923801B24481E9ED7499 /* DDDispatchQueueLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDDispatchQueueLogFormatter.h; path = Classes/Extensions/DDDispatchQueueLogFormatter.h; sourceTree = "<group>"; };
+		15051C10B7F7CCF890F07CE5138ACE3D /* DDContextFilterLogFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDContextFilterLogFormatter.h; path = Classes/Extensions/DDContextFilterLogFormatter.h; sourceTree = "<group>"; };
+		19E8F72B7B43EA2DAD98F0778F1F7216 /* Pods-WJWebViewJavascriptBridge-example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJWebViewJavascriptBridge-example.release.xcconfig"; sourceTree = "<group>"; };
+		1BFEBBC51E337FE81190FE3C577DB2DB /* DDASLLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogger.m; path = Classes/DDASLLogger.m; sourceTree = "<group>"; };
+		297F090C1F1589CFE7C389147ED98E93 /* WJLoggingCocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJLoggingCocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		36485E9DE7418CAB903531A634E3D98D /* CocoaLumberjack.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = CocoaLumberjack.h; path = Classes/CocoaLumberjack.h; sourceTree = "<group>"; };
+		37FFD1103A4E406F331C3FBAE7AADF3C /* WJConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJConfig.h; path = Classes/WJConfig.h; sourceTree = "<group>"; };
+		3C8D9FC88CDDAABF8CEC93790C885987 /* libPods-WJWebViewJavascriptBridge-example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-WJWebViewJavascriptBridge-example.a"; path = "libPods-WJWebViewJavascriptBridge-example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44B34C5986FE976C612DFD17517B6F0A /* DDAbstractDatabaseLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAbstractDatabaseLogger.h; path = Classes/DDAbstractDatabaseLogger.h; sourceTree = "<group>"; };
+		4561D3C734ADF7269E9F025E0C264946 /* WJLoggerFactory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLoggerFactory.h; path = Classes/WJLoggerFactory.h; sourceTree = "<group>"; };
+		458D9FB4AD5B5D0E99A0D755888C84A9 /* libWJLoggingCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWJLoggingCocoaLumberjack.a; path = libWJLoggingCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		4F5E3D6AD591F7DA8CB14B1EDDDA0119 /* Pods-WJWebViewJavascriptBridge-example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJWebViewJavascriptBridge-example-frameworks.sh"; sourceTree = "<group>"; };
+		5259C9CB29B1380F3F2B7A3C1C958A91 /* DDTTYLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDTTYLogger.h; path = Classes/DDTTYLogger.h; sourceTree = "<group>"; };
+		53DDF5517681DE44FC2041B3207CAD5E /* Pods-WJWebViewJavascriptBridge-example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-WJWebViewJavascriptBridge-example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		56AB7CED171AA07AD65F7FC52C97DA70 /* WJConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJConfig.m; path = Classes/WJConfig.m; sourceTree = "<group>"; };
+		597F0F66B34E1C814D46B8D7B8EB762D /* DDLogMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLogMacros.h; path = Classes/DDLogMacros.h; sourceTree = "<group>"; };
+		5BB50EAC4E31427DEC5E205437A03BCD /* DDContextFilterLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDContextFilterLogFormatter.m; path = Classes/Extensions/DDContextFilterLogFormatter.m; sourceTree = "<group>"; };
+		5C09BDF75152247F5AEFA247EFF7479B /* WJLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJLogger.m; path = Classes/WJLogger.m; sourceTree = "<group>"; };
+		616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66C7A8E981495A4D51FAEA742C124F66 /* WJLoggerFactory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = WJLoggerFactory.m; path = Classes/WJLoggerFactory.m; sourceTree = "<group>"; };
+		703B50C67BB6FBC4227FE4E9A8FC9782 /* DDASLLogCapture.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDASLLogCapture.m; path = Classes/DDASLLogCapture.m; sourceTree = "<group>"; };
+		7132EAA702E3B94F679400BA5DBB8B6B /* WJConfig-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJConfig-dummy.m"; sourceTree = "<group>"; };
+		7146FC51FE0E67D612F96B177BB019C1 /* DDMultiFormatter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDMultiFormatter.h; path = Classes/Extensions/DDMultiFormatter.h; sourceTree = "<group>"; };
+		76B4298578DC17DF26C37CC1C33D5843 /* IWJLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IWJLogger.h; path = Classes/IWJLogger.h; sourceTree = "<group>"; };
+		7DBBC93F5C5FB3CDE572A81E5652383E /* DDFileLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDFileLogger.h; path = Classes/DDFileLogger.h; sourceTree = "<group>"; };
+		7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		7F0C5D0B4B9C8DE814BD9C8204A55080 /* libCocoaLumberjack.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libCocoaLumberjack.a; path = libCocoaLumberjack.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F904EAEE198579FE895B8EBF2107EE9 /* DDFileLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDFileLogger.m; path = Classes/DDFileLogger.m; sourceTree = "<group>"; };
+		87622D8C3A1DAF111D802CD931F53807 /* DDLegacyMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDLegacyMacros.h; path = Classes/DDLegacyMacros.h; sourceTree = "<group>"; };
+		89461AAFCD74EB742C7EAED52DA6D27E /* Pods-WJWebViewJavascriptBridge-example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-WJWebViewJavascriptBridge-example-dummy.m"; sourceTree = "<group>"; };
+		902D7CB8B08A5EDA2412F7389087CFA7 /* CocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = CocoaLumberjack.xcconfig; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		942237DC427E3BB862CD62DFB83C80AC /* WJLoggingAPI-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJLoggingAPI-dummy.m"; sourceTree = "<group>"; };
+		96677B0220FC19A66748DB243B028A72 /* libWJConfig.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWJConfig.a; path = libWJConfig.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		96BA3E34EF8DF70173FC2CED85957CEB /* WJLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLogger.h; path = Classes/WJLogger.h; sourceTree = "<group>"; };
+		99FBC22F68C2CC65CE83CE9C62FA04B0 /* DDDispatchQueueLogFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDDispatchQueueLogFormatter.m; path = Classes/Extensions/DDDispatchQueueLogFormatter.m; sourceTree = "<group>"; };
+		9AB138CD676F34B513C95DE97344B2EB /* libWJLoggingAPI.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libWJLoggingAPI.a; path = libWJLoggingAPI.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D2AB02A825555DA53734D0670CD3AA5 /* DDLog.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDLog.m; path = Classes/DDLog.m; sourceTree = "<group>"; };
+		A4659FE24CB1A6DB86A6A4CC83179A48 /* DDLog+LOGV.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "DDLog+LOGV.h"; path = "Classes/DDLog+LOGV.h"; sourceTree = "<group>"; };
+		A6E66A55BCDAE2B493A22AC50883EB3F /* WJLoggingMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = WJLoggingMacros.h; path = Classes/WJLoggingMacros.h; sourceTree = "<group>"; };
+		A802ABE8198B3BE0A67F8860C9F332E3 /* Pods-WJWebViewJavascriptBridge-example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-WJWebViewJavascriptBridge-example-resources.sh"; sourceTree = "<group>"; };
+		AEA4380153A212E7D1A2E56FD17CA031 /* WJConfig.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJConfig.xcconfig; sourceTree = "<group>"; };
+		AEC14165CE466A18E80DC4E811B58EDB /* WJLoggingAPI.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJLoggingAPI.xcconfig; sourceTree = "<group>"; };
+		B50843014B5DEA900DE6FA4C10907604 /* DDTTYLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDTTYLogger.m; path = Classes/DDTTYLogger.m; sourceTree = "<group>"; };
+		B9EFCD9D1D1B6BBDF34CE49FD06ABD89 /* Pods-WJWebViewJavascriptBridge-example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-WJWebViewJavascriptBridge-example.debug.xcconfig"; sourceTree = "<group>"; };
+		BA31D30C8A283999A4C89C5430B429F1 /* DDASLLogger.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogger.h; path = Classes/DDASLLogger.h; sourceTree = "<group>"; };
+		C3496722E479420D65425B104BDBEA65 /* CocoaLumberjack-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "CocoaLumberjack-prefix.pch"; sourceTree = "<group>"; };
+		C3AE55138D8751B35992F317B6678AAE /* DDAbstractDatabaseLogger.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDAbstractDatabaseLogger.m; path = Classes/DDAbstractDatabaseLogger.m; sourceTree = "<group>"; };
+		C9D27F2D27029E2A059FD682A5F46352 /* DDMultiFormatter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DDMultiFormatter.m; path = Classes/Extensions/DDMultiFormatter.m; sourceTree = "<group>"; };
+		CF46CC2B8C63D9CEDBCA060C24A5DE5B /* WJLoggingCocoaLumberjack.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = WJLoggingCocoaLumberjack.xcconfig; sourceTree = "<group>"; };
+		D1DF4F1DC43D3871026BB993D4BBC7C8 /* WJLoggingCocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WJLoggingCocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		D972A2BE8E01C370332237D355E29362 /* DDAssertMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDAssertMacros.h; path = Classes/DDAssertMacros.h; sourceTree = "<group>"; };
+		E630AA0C2C36FB863ABF943CC4709600 /* CocoaLumberjack-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "CocoaLumberjack-dummy.m"; sourceTree = "<group>"; };
+		EA58348F1480E724EA3245F91FD81EB9 /* WJConfig-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJConfig-prefix.pch"; sourceTree = "<group>"; };
+		F579181F3E373D2636296345B848F32D /* DDASLLogCapture.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DDASLLogCapture.h; path = Classes/DDASLLogCapture.h; sourceTree = "<group>"; };
+		F7706F6CEB5F0B99AAA84F6110D4F6AA /* Pods-WJWebViewJavascriptBridge-example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-WJWebViewJavascriptBridge-example-acknowledgements.plist"; sourceTree = "<group>"; };
+		F85E62E0A3ADECE5F8DC1C8704826946 /* WJLoggingAPI-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WJLoggingAPI-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5270CC06A809E51DD3C5EE30AF20C8C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E35FEF6ED17D3E48EE4ACCFBE58A26B1 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F3301E214FA05A400313BCA9E15ED65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D66A971DBC6F9E493190F261B97637C0 /* Foundation.framework in Frameworks */,
+				FC89D41AED72B7241FF8560C1A76B57B /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9EA456E1346EE520E950F6ED29B3212 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E3623D4A5376B17C60E3A3DA39FC4F0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C19B77C721D0C0F47D29A12810463281 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				310CAABC91B051420B3C09D31467140C /* Foundation.framework in Frameworks */,
+				FF84684E6E36286A53BF05FAA32971E5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F0D11A06AC55CEBBB32548DD677A7985 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				631CA7DF8B6F249F17C97CD1EE357F94 /* Foundation.framework in Frameworks */,
+				0926D9DC8AEE2660500349753C3FE12C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		037254D16F4122F1E687366B5324C800 /* CocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				209953F5D2F53291841D4B3294724E91 /* Core */,
+				0A0A3037149C7421B63AE4909E091572 /* Default */,
+				D679D41DA161CC34546F8A0AF5651870 /* Extensions */,
+				5B9B154096B48AC9FA2F62041406ADB3 /* Support Files */,
+			);
+			name = CocoaLumberjack;
+			path = CocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		0A0A3037149C7421B63AE4909E091572 /* Default */ = {
+			isa = PBXGroup;
+			children = (
+				36485E9DE7418CAB903531A634E3D98D /* CocoaLumberjack.h */,
+			);
+			name = Default;
+			sourceTree = "<group>";
+		};
+		0EDD6E799AB134F560A781F84B760028 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				037254D16F4122F1E687366B5324C800 /* CocoaLumberjack */,
+				CC1F23B19DC2D3F5D3748BC0B5D163A5 /* WJConfig */,
+				F1F13E5475C690D6F009098F122E993B /* WJLoggingAPI */,
+				B6D4F1AD01F1D003F435643BCC052CD7 /* WJLoggingCocoaLumberjack */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0EDF93CF95B2CAE94251227B9837FB28 /* Pods-WJWebViewJavascriptBridge-example */ = {
+			isa = PBXGroup;
+			children = (
+				53DDF5517681DE44FC2041B3207CAD5E /* Pods-WJWebViewJavascriptBridge-example-acknowledgements.markdown */,
+				F7706F6CEB5F0B99AAA84F6110D4F6AA /* Pods-WJWebViewJavascriptBridge-example-acknowledgements.plist */,
+				89461AAFCD74EB742C7EAED52DA6D27E /* Pods-WJWebViewJavascriptBridge-example-dummy.m */,
+				4F5E3D6AD591F7DA8CB14B1EDDDA0119 /* Pods-WJWebViewJavascriptBridge-example-frameworks.sh */,
+				A802ABE8198B3BE0A67F8860C9F332E3 /* Pods-WJWebViewJavascriptBridge-example-resources.sh */,
+				B9EFCD9D1D1B6BBDF34CE49FD06ABD89 /* Pods-WJWebViewJavascriptBridge-example.debug.xcconfig */,
+				19E8F72B7B43EA2DAD98F0778F1F7216 /* Pods-WJWebViewJavascriptBridge-example.release.xcconfig */,
+			);
+			name = "Pods-WJWebViewJavascriptBridge-example";
+			path = "Target Support Files/Pods-WJWebViewJavascriptBridge-example";
+			sourceTree = "<group>";
+		};
+		1C15397D3EC33925A80260F4B422568E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEC14165CE466A18E80DC4E811B58EDB /* WJLoggingAPI.xcconfig */,
+				942237DC427E3BB862CD62DFB83C80AC /* WJLoggingAPI-dummy.m */,
+				F85E62E0A3ADECE5F8DC1C8704826946 /* WJLoggingAPI-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WJLoggingAPI";
+			sourceTree = "<group>";
+		};
+		209953F5D2F53291841D4B3294724E91 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				44B34C5986FE976C612DFD17517B6F0A /* DDAbstractDatabaseLogger.h */,
+				C3AE55138D8751B35992F317B6678AAE /* DDAbstractDatabaseLogger.m */,
+				F579181F3E373D2636296345B848F32D /* DDASLLogCapture.h */,
+				703B50C67BB6FBC4227FE4E9A8FC9782 /* DDASLLogCapture.m */,
+				BA31D30C8A283999A4C89C5430B429F1 /* DDASLLogger.h */,
+				1BFEBBC51E337FE81190FE3C577DB2DB /* DDASLLogger.m */,
+				D972A2BE8E01C370332237D355E29362 /* DDAssertMacros.h */,
+				7DBBC93F5C5FB3CDE572A81E5652383E /* DDFileLogger.h */,
+				7F904EAEE198579FE895B8EBF2107EE9 /* DDFileLogger.m */,
+				87622D8C3A1DAF111D802CD931F53807 /* DDLegacyMacros.h */,
+				0132F247A6E5D4682F8CA75B5942FB60 /* DDLog.h */,
+				9D2AB02A825555DA53734D0670CD3AA5 /* DDLog.m */,
+				A4659FE24CB1A6DB86A6A4CC83179A48 /* DDLog+LOGV.h */,
+				597F0F66B34E1C814D46B8D7B8EB762D /* DDLogMacros.h */,
+				5259C9CB29B1380F3F2B7A3C1C958A91 /* DDTTYLogger.h */,
+				B50843014B5DEA900DE6FA4C10907604 /* DDTTYLogger.m */,
+			);
+			name = Core;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E6EE98446B568159EE277B68FD442AF0 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		52C5BA3488D7F88E8DBAD7DFA97B14ED /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				AEA4380153A212E7D1A2E56FD17CA031 /* WJConfig.xcconfig */,
+				7132EAA702E3B94F679400BA5DBB8B6B /* WJConfig-dummy.m */,
+				EA58348F1480E724EA3245F91FD81EB9 /* WJConfig-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WJConfig";
+			sourceTree = "<group>";
+		};
+		55747FB363CF9D3142F83038F7FC2861 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CF46CC2B8C63D9CEDBCA060C24A5DE5B /* WJLoggingCocoaLumberjack.xcconfig */,
+				D1DF4F1DC43D3871026BB993D4BBC7C8 /* WJLoggingCocoaLumberjack-dummy.m */,
+				297F090C1F1589CFE7C389147ED98E93 /* WJLoggingCocoaLumberjack-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/WJLoggingCocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		583248D16C146654595D09A9B7B54990 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0EDF93CF95B2CAE94251227B9837FB28 /* Pods-WJWebViewJavascriptBridge-example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		5B9B154096B48AC9FA2F62041406ADB3 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				902D7CB8B08A5EDA2412F7389087CFA7 /* CocoaLumberjack.xcconfig */,
+				E630AA0C2C36FB863ABF943CC4709600 /* CocoaLumberjack-dummy.m */,
+				C3496722E479420D65425B104BDBEA65 /* CocoaLumberjack-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/CocoaLumberjack";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				0EDD6E799AB134F560A781F84B760028 /* Pods */,
+				9B66994A895B1782C6E862F41886D073 /* Products */,
+				583248D16C146654595D09A9B7B54990 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		9B66994A895B1782C6E862F41886D073 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F0C5D0B4B9C8DE814BD9C8204A55080 /* libCocoaLumberjack.a */,
+				3C8D9FC88CDDAABF8CEC93790C885987 /* libPods-WJWebViewJavascriptBridge-example.a */,
+				96677B0220FC19A66748DB243B028A72 /* libWJConfig.a */,
+				9AB138CD676F34B513C95DE97344B2EB /* libWJLoggingAPI.a */,
+				458D9FB4AD5B5D0E99A0D755888C84A9 /* libWJLoggingCocoaLumberjack.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B6D4F1AD01F1D003F435643BCC052CD7 /* WJLoggingCocoaLumberjack */ = {
+			isa = PBXGroup;
+			children = (
+				96BA3E34EF8DF70173FC2CED85957CEB /* WJLogger.h */,
+				5C09BDF75152247F5AEFA247EFF7479B /* WJLogger.m */,
+				55747FB363CF9D3142F83038F7FC2861 /* Support Files */,
+			);
+			name = WJLoggingCocoaLumberjack;
+			path = WJLoggingCocoaLumberjack;
+			sourceTree = "<group>";
+		};
+		CC1F23B19DC2D3F5D3748BC0B5D163A5 /* WJConfig */ = {
+			isa = PBXGroup;
+			children = (
+				37FFD1103A4E406F331C3FBAE7AADF3C /* WJConfig.h */,
+				56AB7CED171AA07AD65F7FC52C97DA70 /* WJConfig.m */,
+				52C5BA3488D7F88E8DBAD7DFA97B14ED /* Support Files */,
+			);
+			name = WJConfig;
+			path = WJConfig;
+			sourceTree = "<group>";
+		};
+		D679D41DA161CC34546F8A0AF5651870 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				15051C10B7F7CCF890F07CE5138ACE3D /* DDContextFilterLogFormatter.h */,
+				5BB50EAC4E31427DEC5E205437A03BCD /* DDContextFilterLogFormatter.m */,
+				077E54F2697B923801B24481E9ED7499 /* DDDispatchQueueLogFormatter.h */,
+				99FBC22F68C2CC65CE83CE9C62FA04B0 /* DDDispatchQueueLogFormatter.m */,
+				7146FC51FE0E67D612F96B177BB019C1 /* DDMultiFormatter.h */,
+				C9D27F2D27029E2A059FD682A5F46352 /* DDMultiFormatter.m */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		E6EE98446B568159EE277B68FD442AF0 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				616BEB51ECCAD129BDBCB7A956B56CC6 /* Foundation.framework */,
+				7EC994CDC2D681BA26389F78A7E4B325 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		F1F13E5475C690D6F009098F122E993B /* WJLoggingAPI */ = {
+			isa = PBXGroup;
+			children = (
+				76B4298578DC17DF26C37CC1C33D5843 /* IWJLogger.h */,
+				4561D3C734ADF7269E9F025E0C264946 /* WJLoggerFactory.h */,
+				66C7A8E981495A4D51FAEA742C124F66 /* WJLoggerFactory.m */,
+				A6E66A55BCDAE2B493A22AC50883EB3F /* WJLoggingMacros.h */,
+				1C15397D3EC33925A80260F4B422568E /* Support Files */,
+			);
+			name = WJLoggingAPI;
+			path = WJLoggingAPI;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		67D3C869212E3F5C47A1DF712C53CCF3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				355FC76BC5023A12C8BFC3E0CDAEC2D4 /* WJConfig.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B2B466BC2F16A3E8BD188B9B4C80D25 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56AA0DC203410D4E2685E02678A67014 /* WJLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89A41C579F2AA8640D5DF29B050310D0 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2EC9C0EE30671A1BF4FF997F0FBDBBC7 /* IWJLogger.h in Headers */,
+				B36933332D10D9D0EAE0C1DDF0FA0FA1 /* WJLoggerFactory.h in Headers */,
+				2D6C744C43A74774BCEBD84AFA347D6A /* WJLoggingMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC65F60E819C23B8117F29D171282641 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC6CA9FF162601A4B6F1B221F788F26F /* CocoaLumberjack.h in Headers */,
+				44E52A6929838107BA0CFBF689E3EBF3 /* DDAbstractDatabaseLogger.h in Headers */,
+				327F521BDF6825B7E8310A8364F4B329 /* DDASLLogCapture.h in Headers */,
+				0FB2208D30EBC989193163845794EEF5 /* DDASLLogger.h in Headers */,
+				CB11742A0438BA72A15DEEFD3AE4CCCD /* DDAssertMacros.h in Headers */,
+				AC6B0EC4FF2850AF0A4DE4BE7E89F124 /* DDContextFilterLogFormatter.h in Headers */,
+				3F71DE69C5BF6D5337028836782578DD /* DDDispatchQueueLogFormatter.h in Headers */,
+				EDD5C8C37CF25D8EEC9961334E440C5C /* DDFileLogger.h in Headers */,
+				5DE494A9F445722554AD42C0119E22D4 /* DDLegacyMacros.h in Headers */,
+				E5DA9194C6FCB2A81692F141AB381AED /* DDLog+LOGV.h in Headers */,
+				04069F09064B19F673A40301D8CFDC6D /* DDLog.h in Headers */,
+				699AD3B24E77ED2FD26DA362BB356E20 /* DDLogMacros.h in Headers */,
+				D4581B4ACFF6ADF049B2F1C758573673 /* DDMultiFormatter.h in Headers */,
+				1DEBF937A21F8EB27AE0FD6DC6EB5C48 /* DDTTYLogger.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0F22769C3BA8D7C1B03B27A9F1E9DCF0 /* WJLoggingAPI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CCD460759542F4FE555F6E72462A7259 /* Build configuration list for PBXNativeTarget "WJLoggingAPI" */;
+			buildPhases = (
+				83F90A80DF642945DFCC242B1E8D4090 /* Sources */,
+				F0D11A06AC55CEBBB32548DD677A7985 /* Frameworks */,
+				89A41C579F2AA8640D5DF29B050310D0 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJLoggingAPI;
+			productName = WJLoggingAPI;
+			productReference = 9AB138CD676F34B513C95DE97344B2EB /* libWJLoggingAPI.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		1A9298B32F31A61F3742650B19EE27BD /* CocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0ABF2BBCA31F41769F02912D8D259057 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */;
+			buildPhases = (
+				449198487FC4012BF7097A450F828C90 /* Sources */,
+				5270CC06A809E51DD3C5EE30AF20C8C8 /* Frameworks */,
+				DC65F60E819C23B8117F29D171282641 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CocoaLumberjack;
+			productName = CocoaLumberjack;
+			productReference = 7F0C5D0B4B9C8DE814BD9C8204A55080 /* libCocoaLumberjack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		2671AB3799B97E67B71EDF321C9EEF21 /* WJLoggingCocoaLumberjack */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 378DD51CD2152B77FC41011C8A5FD9BC /* Build configuration list for PBXNativeTarget "WJLoggingCocoaLumberjack" */;
+			buildPhases = (
+				438B01FDFE7AE895E75A8D1F6FA8F080 /* Sources */,
+				7F3301E214FA05A400313BCA9E15ED65 /* Frameworks */,
+				7B2B466BC2F16A3E8BD188B9B4C80D25 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C876F299F8D3FA4DD8243D095F1E12C /* PBXTargetDependency */,
+				99B06333FFD6131D053D9886498689DA /* PBXTargetDependency */,
+			);
+			name = WJLoggingCocoaLumberjack;
+			productName = WJLoggingCocoaLumberjack;
+			productReference = 458D9FB4AD5B5D0E99A0D755888C84A9 /* libWJLoggingCocoaLumberjack.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		438122A7CC2173B37934D289B0938D2F /* WJConfig */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9F68767AEF66ACCBC9850E7AFD09AC1 /* Build configuration list for PBXNativeTarget "WJConfig" */;
+			buildPhases = (
+				53A4ABF102F34BF17C66864630C6C565 /* Sources */,
+				C19B77C721D0C0F47D29A12810463281 /* Frameworks */,
+				67D3C869212E3F5C47A1DF712C53CCF3 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WJConfig;
+			productName = WJConfig;
+			productReference = 96677B0220FC19A66748DB243B028A72 /* libWJConfig.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		FC3C8F5FB8283F5DF7297888E1A785A9 /* Pods-WJWebViewJavascriptBridge-example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F9B39F7FB06C7B75E1FB6318C237EB60 /* Build configuration list for PBXNativeTarget "Pods-WJWebViewJavascriptBridge-example" */;
+			buildPhases = (
+				23EBDDD98DC33264C46F4AF057C6953E /* Sources */,
+				B9EA456E1346EE520E950F6ED29B3212 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DD37885234D77F4CFF652002BD11A841 /* PBXTargetDependency */,
+				5FA2A8F9FF1258AE5B6AA47FBFDB0E42 /* PBXTargetDependency */,
+				28F678D5EA74530FAB8727507A07573B /* PBXTargetDependency */,
+				D6143C59C1F224558C783353A9B58FA5 /* PBXTargetDependency */,
+			);
+			name = "Pods-WJWebViewJavascriptBridge-example";
+			productName = "Pods-WJWebViewJavascriptBridge-example";
+			productReference = 3C8D9FC88CDDAABF8CEC93790C885987 /* libPods-WJWebViewJavascriptBridge-example.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 9B66994A895B1782C6E862F41886D073 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1A9298B32F31A61F3742650B19EE27BD /* CocoaLumberjack */,
+				FC3C8F5FB8283F5DF7297888E1A785A9 /* Pods-WJWebViewJavascriptBridge-example */,
+				438122A7CC2173B37934D289B0938D2F /* WJConfig */,
+				0F22769C3BA8D7C1B03B27A9F1E9DCF0 /* WJLoggingAPI */,
+				2671AB3799B97E67B71EDF321C9EEF21 /* WJLoggingCocoaLumberjack */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		23EBDDD98DC33264C46F4AF057C6953E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B179A1ACF8D1446D6D8E5C141CD195D0 /* Pods-WJWebViewJavascriptBridge-example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438B01FDFE7AE895E75A8D1F6FA8F080 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B166B388142FB19706B8681667647161 /* WJLogger.m in Sources */,
+				888C1B4C31EA4942E50F5E3C93D953FD /* WJLoggingCocoaLumberjack-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		449198487FC4012BF7097A450F828C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23647965254B3E07E2FDDD729E0AD436 /* CocoaLumberjack-dummy.m in Sources */,
+				42F3665EAD592433B14AF7A788E71962 /* DDAbstractDatabaseLogger.m in Sources */,
+				A5E49897A952DCD366B72928F99C3A25 /* DDASLLogCapture.m in Sources */,
+				0097C361F954ED7B5067F212826C11AE /* DDASLLogger.m in Sources */,
+				04F99D0B139BA1D419F8C8B64671562C /* DDContextFilterLogFormatter.m in Sources */,
+				B7C875FA64EAD89280B21EDE8682F1E5 /* DDDispatchQueueLogFormatter.m in Sources */,
+				4C2964071939BB92D7967F4917079BF1 /* DDFileLogger.m in Sources */,
+				827800D496A1CAC0323A82008470FCDB /* DDLog.m in Sources */,
+				E8DA52FD4C5F8B853D665AA2A68B8625 /* DDMultiFormatter.m in Sources */,
+				62369FFEA88375B2EABAD14439D29EBF /* DDTTYLogger.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		53A4ABF102F34BF17C66864630C6C565 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CF9D68926E762521DC73A6AED2CBAFA1 /* WJConfig-dummy.m in Sources */,
+				C87CADD5D196D40CC5FC85D294706DD7 /* WJConfig.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		83F90A80DF642945DFCC242B1E8D4090 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C9CD434CA4F79A53AAA9A978FF5E415 /* WJLoggerFactory.m in Sources */,
+				C45CDC625B3E4BE9F6845C75913170DE /* WJLoggingAPI-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		28F678D5EA74530FAB8727507A07573B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJLoggingAPI;
+			target = 0F22769C3BA8D7C1B03B27A9F1E9DCF0 /* WJLoggingAPI */;
+			targetProxy = B00DE2DF9B959CA438E44F1CEE2F5CBA /* PBXContainerItemProxy */;
+		};
+		5C876F299F8D3FA4DD8243D095F1E12C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 1A9298B32F31A61F3742650B19EE27BD /* CocoaLumberjack */;
+			targetProxy = A12FB5D491B0EFC4E9CA1BB4BE4D2421 /* PBXContainerItemProxy */;
+		};
+		5FA2A8F9FF1258AE5B6AA47FBFDB0E42 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJConfig;
+			target = 438122A7CC2173B37934D289B0938D2F /* WJConfig */;
+			targetProxy = 4DAA7EA41214BE831D644CD9A8F8BC83 /* PBXContainerItemProxy */;
+		};
+		99B06333FFD6131D053D9886498689DA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJLoggingAPI;
+			target = 0F22769C3BA8D7C1B03B27A9F1E9DCF0 /* WJLoggingAPI */;
+			targetProxy = 2B27D255AA8531DECAE54B4EE085A49B /* PBXContainerItemProxy */;
+		};
+		D6143C59C1F224558C783353A9B58FA5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = WJLoggingCocoaLumberjack;
+			target = 2671AB3799B97E67B71EDF321C9EEF21 /* WJLoggingCocoaLumberjack */;
+			targetProxy = 3B27EA2666EA1ED473BE76EFF094B75A /* PBXContainerItemProxy */;
+		};
+		DD37885234D77F4CFF652002BD11A841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = CocoaLumberjack;
+			target = 1A9298B32F31A61F3742650B19EE27BD /* CocoaLumberjack */;
+			targetProxy = A27D6AB13B9BE9DC9B193D00881DDC68 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0637FE7468BF1F40AD0D9BFF0EB29586 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 19E8F72B7B43EA2DAD98F0778F1F7216 /* Pods-WJWebViewJavascriptBridge-example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		1C930B8E6B526943C98F3EF66D91F911 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC14165CE466A18E80DC4E811B58EDB /* WJLoggingAPI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJLoggingAPI/WJLoggingAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		2DD5E1B86CE3506AA122A1D5B8DBF6B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEC14165CE466A18E80DC4E811B58EDB /* WJLoggingAPI.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJLoggingAPI/WJLoggingAPI-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		36EE217C457B1153B7BB4D59BC04B073 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B9EFCD9D1D1B6BBDF34CE49FD06ABD89 /* Pods-WJWebViewJavascriptBridge-example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5322A941BEA85C4AA999719415A0E89F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA4380153A212E7D1A2E56FD17CA031 /* WJConfig.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJConfig/WJConfig-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		67F09EBF4264DC426C836501C0C1C5DB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902D7CB8B08A5EDA2412F7389087CFA7 /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		7144679E0EDE4A2FB39F35D70C94CE17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 902D7CB8B08A5EDA2412F7389087CFA7 /* CocoaLumberjack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/CocoaLumberjack/CocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7B060427FA06185BCF906614B32120D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA4380153A212E7D1A2E56FD17CA031 /* WJConfig.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJConfig/WJConfig-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		B2F9519875A77268ACA35532DAB50989 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF46CC2B8C63D9CEDBCA060C24A5DE5B /* WJLoggingCocoaLumberjack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJLoggingCocoaLumberjack/WJLoggingCocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		DDFD50D75E9EC121CD3E143D253FB8C5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CF46CC2B8C63D9CEDBCA060C24A5DE5B /* WJLoggingCocoaLumberjack.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/WJLoggingCocoaLumberjack/WJLoggingCocoaLumberjack-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0ABF2BBCA31F41769F02912D8D259057 /* Build configuration list for PBXNativeTarget "CocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7144679E0EDE4A2FB39F35D70C94CE17 /* Debug */,
+				67F09EBF4264DC426C836501C0C1C5DB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		378DD51CD2152B77FC41011C8A5FD9BC /* Build configuration list for PBXNativeTarget "WJLoggingCocoaLumberjack" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B2F9519875A77268ACA35532DAB50989 /* Debug */,
+				DDFD50D75E9EC121CD3E143D253FB8C5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CCD460759542F4FE555F6E72462A7259 /* Build configuration list for PBXNativeTarget "WJLoggingAPI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2DD5E1B86CE3506AA122A1D5B8DBF6B0 /* Debug */,
+				1C930B8E6B526943C98F3EF66D91F911 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9F68767AEF66ACCBC9850E7AFD09AC1 /* Build configuration list for PBXNativeTarget "WJConfig" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5322A941BEA85C4AA999719415A0E89F /* Debug */,
+				7B060427FA06185BCF906614B32120D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F9B39F7FB06C7B75E1FB6318C237EB60 /* Build configuration list for PBXNativeTarget "Pods-WJWebViewJavascriptBridge-example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				36EE217C457B1153B7BB4D59BC04B073 /* Debug */,
+				0637FE7468BF1F40AD0D9BFF0EB29586 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,28 @@
+PODS:
+  - CocoaLumberjack (2.2.0):
+    - CocoaLumberjack/Default (= 2.2.0)
+    - CocoaLumberjack/Extensions (= 2.2.0)
+  - CocoaLumberjack/Core (2.2.0)
+  - CocoaLumberjack/Default (2.2.0):
+    - CocoaLumberjack/Core
+  - CocoaLumberjack/Extensions (2.2.0):
+    - CocoaLumberjack/Default
+  - WJConfig (1.0)
+  - WJLoggingAPI (1.0)
+  - WJLoggingCocoaLumberjack (1.0.2):
+    - CocoaLumberjack (= 2.2.0)
+    - WJLoggingAPI
+
+DEPENDENCIES:
+  - WJConfig
+  - WJLoggingCocoaLumberjack
+
+SPEC CHECKSUMS:
+  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
+  WJConfig: a907d4e3708d3906f14457ac1abe35a4a8d39dcb
+  WJLoggingAPI: baf950e1a755c322cbb6dafbe57d17c629dad20f
+  WJLoggingCocoaLumberjack: b12edb7e122a363f52e9bd8f97e99e4560ac42ae
+
+PODFILE CHECKSUM: 014d8424606a17ef8ee4f3626000ca7a6a62c4ef
+
+COCOAPODS: 1.2.0.beta.1
