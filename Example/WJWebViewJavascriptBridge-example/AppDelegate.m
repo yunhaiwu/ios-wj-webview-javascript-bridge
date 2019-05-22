@@ -9,7 +9,7 @@
 #import "AppDelegate.h"
 #import "ExampleUIWebViewController.h"
 #import "ExampleWKWebViewController.h"
-#import "CocoaLumberjack.h"
+//#import "CocoaLumberjack.h"
 
 @interface AppDelegate ()
 
@@ -21,13 +21,13 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     
     //配置CocoaLumberjack日志
-#ifdef DEBUG
-    [DDLog addLogger:[DDTTYLogger sharedInstance] withLevel:DDLogLevelAll];
-#else
-    [DDLog addLogger:[DDTTYLogger sharedInstance] withLevel:DDLogLevelError];
-#endif
-    
-    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
+//#ifdef DEBUG
+//    [DDLog addLogger:[DDTTYLogger sharedInstance] withLevel:DDLogLevelAll];
+//#else
+//    [DDLog addLogger:[DDTTYLogger sharedInstance] withLevel:DDLogLevelError];
+//#endif
+//    
+//    [[DDTTYLogger sharedInstance] setColorsEnabled:YES];
     
     
     // 1. Create the UIWebView example

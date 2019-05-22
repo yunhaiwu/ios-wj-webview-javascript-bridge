@@ -1,28 +1,21 @@
 PODS:
-  - CocoaLumberjack (2.2.0):
-    - CocoaLumberjack/Default (= 2.2.0)
-    - CocoaLumberjack/Extensions (= 2.2.0)
-  - CocoaLumberjack/Core (2.2.0)
-  - CocoaLumberjack/Default (2.2.0):
-    - CocoaLumberjack/Core
-  - CocoaLumberjack/Extensions (2.2.0):
-    - CocoaLumberjack/Default
-  - WJConfig (1.0)
-  - WJLoggingAPI (1.0)
-  - WJLoggingCocoaLumberjack (1.0.2):
-    - CocoaLumberjack (= 2.2.0)
-    - WJLoggingAPI
+  - WJConfig (2.0):
+    - WJLoggingAPI (>= 2.0)
+  - WJLoggingAPI (2.0)
 
 DEPENDENCIES:
   - WJConfig
-  - WJLoggingCocoaLumberjack
+  - WJLoggingAPI
+
+SPEC REPOS:
+  https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git:
+    - WJConfig
+    - WJLoggingAPI
 
 SPEC CHECKSUMS:
-  CocoaLumberjack: 17fe8581f84914d5d7e6360f7c70022b173c3ae0
-  WJConfig: a907d4e3708d3906f14457ac1abe35a4a8d39dcb
-  WJLoggingAPI: baf950e1a755c322cbb6dafbe57d17c629dad20f
-  WJLoggingCocoaLumberjack: b12edb7e122a363f52e9bd8f97e99e4560ac42ae
+  WJConfig: deda632fdec1562c21e62be1acace6346c0cceca
+  WJLoggingAPI: 183581a351d51f93ec9900a3cc5f2df15b907de3
 
-PODFILE CHECKSUM: 014d8424606a17ef8ee4f3626000ca7a6a62c4ef
+PODFILE CHECKSUM: cd786beafcaf75822c7f706952932e89ee962b51
 
-COCOAPODS: 1.2.0.beta.1
+COCOAPODS: 1.5.3

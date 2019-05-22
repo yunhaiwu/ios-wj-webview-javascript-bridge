@@ -1,10 +1,10 @@
 source 'https://github.com/CocoaPods/Specs.git'
-source 'http://gitlab.jucaicat.net/iOS-Framework/Specs.git'
+source 'https://github.com/yunhaiwu/ios-wj-framework-cocoapods-specs.git'
 platform :ios, '7.0'
 
 target :'WJWebViewJavascriptBridge-example' do
 
-pod 'WJLoggingCocoaLumberjack'
+pod 'WJLoggingAPI'
 
 pod 'WJConfig'
 
